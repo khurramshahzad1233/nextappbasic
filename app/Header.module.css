@@ -1,0 +1,38 @@
+.headersec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.headersec1>div{
+    padding: 20px 0 0 42px;
+    color: blue;
+}
+.headersec1>ul{
+    display: flex;
+}
+.headersec1>ul>li{
+    list-style: none;
+    padding: 20px 20px 10px 10px;
+}
+.headersec1>ul>li>a:hover{
+    color:green;
+}
+.headersec1>ul>li>a{
+    text-decoration: none;
+}
+.headersec1>ul>li>a:active ul{
+    background-color: blueviolet;
+}
+.logoutbtn{
+    background: none;
+    border: none;
+    outline: none;
+    font-family:inherit;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: red;
+}
+.logoutbtn:hover{
+    background: green;
+}

@@ -1,0 +1,31 @@
+.todosection1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 20px;
+    box-shadow: 0 0 5px silver;
+}
+.todosection1>div{}
+.todosection1>div>h4{
+    font-size: 1.3rem;
+    color: blue;
+    padding: 5px 0px;
+}
+.todosection1>div>p{}
+.todobtnsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+
+}
+.todobtnsection>input{
+    margin: 25px;
+}
+.todobtnsection>button{}
+.checkboxbtn{
+    width: 20px;
+    height: 20px;
+}

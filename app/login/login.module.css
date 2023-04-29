@@ -1,0 +1,50 @@
+.loginsection{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loginsection>div{
+    width: 40vw;
+    height: 70vh;
+    background: ghostwhite;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginsection>div>h4{
+    font-size: 1.5rem;
+    color: blue;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    padding: 0 0 18px 0;
+}
+.loginsection>div>form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginsection>div>form>div{
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+.loginsection>div>form>div>input{
+    width: 100%;
+    padding: 5px 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.loginsection>div>form>div:nth-child(3)>input{
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+}
